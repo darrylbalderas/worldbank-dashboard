@@ -13,6 +13,8 @@ Looking at information for mostly free and free economy countries. The [list of 
 
 Here is the link to the [dashboard](https://worldbank-dash.herokuapp.com/)
 
+Using [heroku](https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true) to host my dashboard
+
 ### Countries that I will be analyzing
 - Hong Kong
 - Singapore
