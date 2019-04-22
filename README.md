@@ -15,6 +15,8 @@ Here is the link to the [dashboard](https://worldbank-dash.herokuapp.com/)
 
 Using [heroku](https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true) to host my dashboard
 
+Using this [plotly turtorial](https://code.tutsplus.com/tutorials/charting-using-plotly-in-python--cms-30286) to help with plotly dashboard
+
 ### Countries that I will be analyzing
 - Hong Kong
 - Singapore
