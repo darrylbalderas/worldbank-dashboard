@@ -4,8 +4,9 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 import numpy as np
 import json
-app = Flask(__name__, static_url_path='/static')
 
+
+app = Flask(__name__, static_url_path='/static')
 
 @app.route('/')
 def index():
@@ -21,4 +22,5 @@ def index():
     return render_template("index.html", graphJSON=graphJSON)
 
 if __name__ == '__main__':
+    app.config['TEMPLATES_AUTO_RELOAD'] = True
     app.run()   

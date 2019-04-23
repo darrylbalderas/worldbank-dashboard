@@ -57,7 +57,3 @@ Using this [plotly turtorial](https://code.tutsplus.com/tutorials/charting-using
     > (virtual env must be started to install dependencies)
      
     `pip install -r requirements.txt`
-    
-- Start notebook 
-     
-    `jupyter notebook survey-analysis.ipynb`
