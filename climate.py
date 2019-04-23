@@ -6,14 +6,17 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 
 def climate_ctry_url(country):
+    """Construct url based on ISO3 country code"""
     climate_url = "http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/a2/pr/2020/2039/"
     return climate_url + country
 
 def get_ctry_recordings(country):
+    """Get climate data for a particular country"""
     resp = requests.get(url=climate_ctry_url(country))
     return resp.json()
 
 def get_figures():
+    """Create a list of figures that have data and layout for plotly"""
     countries = {"col": [], "chl":[], "per":[], "cri":[]}
     figures =[]
     months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
