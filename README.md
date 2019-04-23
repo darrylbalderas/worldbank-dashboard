@@ -17,26 +17,13 @@ Using [heroku](https://devcenter.heroku.com/articles/getting-started-with-python
 
 Using this [plotly turtorial](https://code.tutsplus.com/tutorials/charting-using-plotly-in-python--cms-30286) to help with plotly dashboard
 
+Use the [climate-api] in worldbank website
+
 ### Countries that I will be analyzing
-- Hong Kong
-- Singapore
-- New Zealand
-- Switzerland
-- Australia
-- Ireland
-- United Kingdom
-- Denmark
+- Peru
 - Chile
-- Sweden
-- Finland
-- Germany
-- Norway
-- Israel
-- South Korea
-- Japan
-- Austria
-
-
+- Colombia
+- Costa Rica
 
 ## Installation <a name="installation"></a>
 
